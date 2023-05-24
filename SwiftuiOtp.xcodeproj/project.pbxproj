@@ -13,6 +13,8 @@
 		0DD130182A1CE2D600982724 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DD130172A1CE2D600982724 /* Preview Assets.xcassets */; };
 		0DD1301A2A1CE2D600982724 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD130192A1CE2D600982724 /* Persistence.swift */; };
 		0DD1301D2A1CE2D600982724 /* SwiftuiOtp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1301B2A1CE2D600982724 /* SwiftuiOtp.xcdatamodeld */; };
+		0DD130242A1CE4CA00982724 /* OtpModifer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD130232A1CE4CA00982724 /* OtpModifer.swift */; };
+		0DD130262A1CEA1800982724 /* OtpFormFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD130252A1CEA1800982724 /* OtpFormFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		0DD130172A1CE2D600982724 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0DD130192A1CE2D600982724 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0DD1301C2A1CE2D600982724 /* SwiftuiOtp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftuiOtp.xcdatamodel; sourceTree = "<group>"; };
+		0DD130232A1CE4CA00982724 /* OtpModifer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpModifer.swift; sourceTree = "<group>"; };
+		0DD130252A1CEA1800982724 /* OtpFormFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpFormFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				0DD130192A1CE2D600982724 /* Persistence.swift */,
 				0DD1301B2A1CE2D600982724 /* SwiftuiOtp.xcdatamodeld */,
 				0DD130162A1CE2D600982724 /* Preview Content */,
+				0DD130232A1CE4CA00982724 /* OtpModifer.swift */,
+				0DD130252A1CEA1800982724 /* OtpFormFieldView.swift */,
 			);
 			path = SwiftuiOtp;
 			sourceTree = "<group>";
@@ -145,8 +151,10 @@
 			files = (
 				0DD1301A2A1CE2D600982724 /* Persistence.swift in Sources */,
 				0DD1301D2A1CE2D600982724 /* SwiftuiOtp.xcdatamodeld in Sources */,
+				0DD130242A1CE4CA00982724 /* OtpModifer.swift in Sources */,
 				0DD130132A1CE2D300982724 /* ContentView.swift in Sources */,
 				0DD130112A1CE2D300982724 /* SwiftuiOtpApp.swift in Sources */,
+				0DD130262A1CEA1800982724 /* OtpFormFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
